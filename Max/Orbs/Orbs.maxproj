@@ -2,7 +2,7 @@
 	"name" : "Orbs",
 	"version" : 1,
 	"creationdate" : -849125176,
-	"modificationdate" : -849121657,
+	"modificationdate" : -844903114,
 	"viewrect" : [ 25.0, 69.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,24 +16,47 @@
 				"toplevel" : 1
 			}
 ,
-			"Autotrigger.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
-			"Primebuffer.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
-			"vb.stretch.bp.maxpat" : 			{
-				"kind" : "patcher"
-			}
-,
 			"1to4.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"1to4.bp.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Volumes/Ciel/Documents/Orbs/Max/Orbs/patchers/1to4.maxpat",
-					"projectrelativepath" : "../Orbs/patchers/1to4.maxpat"
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/Spatialization",
+					"projectrelativepath" : "../Spatialization"
+				}
+
+			}
+,
+			"vb.stretch.bp.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/Stretching",
+					"projectrelativepath" : "../Stretching"
+				}
+
+			}
+,
+			"Autotrigger.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/Stretching",
+					"projectrelativepath" : "../Stretching"
+				}
+
+			}
+,
+			"Primebuffer.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/Stretching",
+					"projectrelativepath" : "../Stretching"
 				}
 
 			}
@@ -41,17 +64,73 @@
 		}
 ,
 		"externals" : 		{
-			"vb.stretch~.mxo" : 			{
-				"kind" : "object"
+			"vb.freezer~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/vb/vb.freezer~",
+					"projectrelativepath" : "../vb/vb.freezer~"
+				}
+
 			}
 ,
-			"vb.freezer~.mxo" : 			{
-				"kind" : "object"
+			"vb.stretch~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/vb/vb.stretch~",
+					"projectrelativepath" : "../vb/vb.stretch~"
+				}
+
+			}
+,
+			"spatium.encode.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/spatium.max",
+					"projectrelativepath" : "../spatium.max"
+				}
+
+			}
+,
+			"spatium.decode.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/spatium.max",
+					"projectrelativepath" : "../spatium.max"
+				}
+
+			}
+,
+			"spatium.encode..mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/Spatialization",
+					"projectrelativepath" : "../Spatialization"
+				}
+
+			}
+,
+			"spatium.decode..mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/Spatialization",
+					"projectrelativepath" : "../Spatialization"
+				}
+
 			}
 
 		}
 ,
 		"other" : 		{
+			"vb.stretch~..mxo" : 			{
+				"kind" : "file",
+				"local" : 1
+			}
 
 		}
 

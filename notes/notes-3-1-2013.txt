@@ -1,0 +1,11 @@
+The story so far:
+
+vb.stretch~ is awesome.
+It would be nice to figure out a way of triggering that was more sensitive to sudden offsets.
+
+1) Reverb
+ - Use the CSP
+ - "Ground Zero", the normal environment. A bigger room than the one we're actually in, one that we can actually close our eyes and describe.
+ - Investigate using recorded sounds to recreate that space
+ - Investigate using a real reverb
+ - Hagia Sophia

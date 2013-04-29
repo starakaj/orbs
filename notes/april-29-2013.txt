@@ -1,0 +1,2 @@
+Step 1: Get the sound into Max. By the sound I of course mean the debug sound.
+Step 2: Control the reverb for that sound.
