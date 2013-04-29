@@ -4,11 +4,11 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 0,
+			"revision" : 3,
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 0.0, 70.0, 1280.0, 680.0 ],
+		"rect" : [ 45.0, 58.0, 1280.0, 680.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -17,7 +17,7 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
-		"statusbarvisible" : 2,
+		"statusbarvisible" : 0,
 		"toolbarvisible" : 1,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
@@ -636,6 +636,7 @@
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 274.5, 474.0, 483.5, 474.0 ],
 					"source" : [ "obj-63", 0 ]
 				}
 
@@ -645,6 +646,7 @@
 					"destination" : [ "obj-27", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"midpoints" : [ 307.0, 474.0, 483.5, 474.0 ],
 					"source" : [ "obj-65", 0 ]
 				}
 

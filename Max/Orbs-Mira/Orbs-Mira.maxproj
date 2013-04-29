@@ -2,8 +2,8 @@
 	"name" : "Orbs-Mira",
 	"version" : 1,
 	"creationdate" : -844902918,
-	"modificationdate" : -844899279,
-	"viewrect" : [ 53.0, 206.0, 300.0, 500.0 ],
+	"modificationdate" : -844890874,
+	"viewrect" : [ 14.0, 122.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,16 +14,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"1to4.mt.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"interface.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"1to4.maxpat" : 			{
@@ -39,6 +29,21 @@
 					"projectrelativepath" : "../Reverb/rev31"
 				}
 
+			}
+,
+			"vb.stretch.mt.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"1to4.mt.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"interface.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
@@ -61,8 +66,8 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/uqbar/Documents/orbs/Max/spatium.max",
-					"projectrelativepath" : "../spatium.max"
+					"bootpath" : "/Users/uqbar/Documents/C74/max/mobile/mira-package/patchers",
+					"projectrelativepath" : "../../../C74/max/mobile/mira-package/patchers"
 				}
 
 			}
@@ -71,11 +76,25 @@
 				"kind" : "object",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "/Users/uqbar/Documents/orbs/Max/spatium.max",
-					"projectrelativepath" : "../spatium.max"
+					"bootpath" : "/Users/uqbar/Documents/C74/max/mobile/mira-package/patchers",
+					"projectrelativepath" : "../../../C74/max/mobile/mira-package/patchers"
 				}
 
 			}
+,
+			"vb.stretch~.mxo" : 			{
+				"kind" : "object",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "/Users/uqbar/Documents/orbs/Max/vb/vb.stretch~",
+					"projectrelativepath" : "../vb/vb.stretch~"
+				}
+
+			}
+
+		}
+,
+		"other" : 		{
 
 		}
 

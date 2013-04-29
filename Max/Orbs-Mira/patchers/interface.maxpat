@@ -36,7 +36,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1173.451782, 253.325897, 104.0, 20.0 ],
-					"presentation_rect" : [ 1109.090942, 449.586761, 0.0, 0.0 ],
 					"text" : "send~ orb-source"
 				}
 
@@ -189,7 +188,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 580.590942, 461.975586, 41.0, 20.0 ],
-					"presentation_rect" : [ 629.345947, 225.611938, 0.0, 0.0 ],
 					"text" : "gate~"
 				}
 
@@ -435,7 +433,7 @@
 					"patching_rect" : [ 54.105114, 109.917351, 358.399994, 254.800003 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 118.959763, 274.444336, 358.399994, 254.800003 ],
-					"selfpoint" : 77754656,
+					"selfpoint" : 318725496,
 					"tabname" : "Source",
 					"taborder" : 1
 				}
@@ -644,11 +642,11 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-26" : [ "gain~[1]", "gain~", 0 ],
 			"obj-4" : [ "toggle", "toggle", 0 ],
-			"obj-33" : [ "slider", "slider", 0 ],
 			"obj-15" : [ "gain~", "gain~", 0 ],
-			"obj-27" : [ "toggle[1]", "toggle", 0 ],
-			"obj-26" : [ "gain~[1]", "gain~", 0 ]
+			"obj-33" : [ "slider", "slider", 0 ],
+			"obj-27" : [ "toggle[1]", "toggle", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
