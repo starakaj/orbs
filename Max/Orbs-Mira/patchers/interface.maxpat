@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 286.0, 88.0, 1040.0, 684.0 ],
+		"rect" : [ 55.0, 88.0, 1040.0, 684.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -433,7 +433,7 @@
 					"patching_rect" : [ 54.105114, 109.917351, 358.399994, 254.800003 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 118.959763, 274.444336, 358.399994, 254.800003 ],
-					"selfpoint" : 318725496,
+					"selfpoint" : 310423664,
 					"tabname" : "Source",
 					"taborder" : 1
 				}
@@ -642,11 +642,11 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-26" : [ "gain~[1]", "gain~", 0 ],
+			"obj-27" : [ "toggle[1]", "toggle", 0 ],
 			"obj-4" : [ "toggle", "toggle", 0 ],
-			"obj-15" : [ "gain~", "gain~", 0 ],
 			"obj-33" : [ "slider", "slider", 0 ],
-			"obj-27" : [ "toggle[1]", "toggle", 0 ]
+			"obj-15" : [ "gain~", "gain~", 0 ],
+			"obj-26" : [ "gain~[1]", "gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
