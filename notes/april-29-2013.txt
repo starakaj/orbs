@@ -1,2 +1,4 @@
 Step 1: Get the sound into Max. By the sound I of course mean the debug sound.
 Step 2: Control the reverb for that sound.
+Step 3: Celebrate the really sexy reverb that I've managed to add.
+Step 4: Add controls for one CSP (including whether or not that CSP happens to have the retuning attached to it)
