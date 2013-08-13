@@ -4,3 +4,6 @@ Step 3: Celebrate the really sexy reverb that I've managed to add.
 Step 4: Add controls for one CSP (including whether or not that CSP happens to have the retuning attached to it)
 Step 5: Add controls for more CSP's.
 Step 6: Revel in the greatness of what has been achieved.
+
+1) Settings for reverb, 89 liveness, 7.44 kHz, 98 damp
+2)
